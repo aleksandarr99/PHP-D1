@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+nav a:link {
+  text-decoration: none;
+  color: #fff;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #ffd180;
+}
+
+select,
+option {
+  color: whitesmoke;
+}
+
+#slova {
+  display: flex;
+  flex-direction: row;
+}
+
+.kupujem {
+  margin-top: -1.8rem;
+}
+
+nav {
+  font-family: "specify-personal-normal-black", sans-serif;
+  width: 4rem;
+  position: relative;
+  left: 4rem;
+  top: 1.5rem;
+}
+
+nav ul li {
+  font-size: 2.5rem;
+  list-style: none;
+}
+
+#tabelaOglasi,
+.card {
+  background-color: #f97613;
+  color: whitesmoke;
+  border-radius: 0.8rem;
+}
+
+#tabelaOglasi tr:nth-child(even) {
+  background-color: #ffcc80;
+}
+#tabelaOglasi a {
+  text-decoration: none;
+  color: purple;
+}
+
+#tabelaOglasi th,
+td {
+  border-style: hidden !important;
+}
+
+#pretraga .content {
+  /* margin: 4rem 3rem; */
+  color: whitesmoke;
+  background: #f9842c;
+  border-radius: 0.8rem;
+  padding: 1.5rem;
+}
+
+#pretraga label {
+  font-size: 18px;
+}
